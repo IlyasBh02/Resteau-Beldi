@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family:"Sansita Swashed", system-ui;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: none;
+    padding: 6px;
+    background-color: #272727;
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+    padding: 20px 150px;
+
+}
+
+.Logo{
+    width: 40px;
+}
+
+.navbar a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.navbar a:hover{
+    color: #E9BD8C;
+}
+

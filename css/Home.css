@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:"Sansita Swashed", system-ui;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: none;
+    padding: 6px;
+    background-color: #272727;
+    display: flex;
+    column-gap: 150px;
+    align-items: center;
+    padding: 20px 150px;
+
+}
+
+.Logo{
+    width: 40px;
+}
+
+
+.navbar a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.navbar a:hover{
+    color: #E9BD8C;
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/home_pic.png);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 100px;
+}
+
+.home-text{
+    color: white;
+    padding: 5px 15px;
+}
+
+input[type="submit"] {
+    background-color: #933C24;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+
+.shop-bar{
+    display: flex;
+    padding: 10px;
+}
+
+.shop-bar p{
+    display: flex;
+    align-self: center;
+    margin: 5px;
+}
+
+.welcome{
+    margin: 400px ;
+    padding: 200px 400px ;
+}
