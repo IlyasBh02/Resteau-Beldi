@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: "Poppins" , sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
 body{
     margin: 0;
     font-family:"Sansita Swashed", system-ui;
@@ -27,6 +28,8 @@ header{
 }
 
 .navbar a {
+    font-family: "Poppins";
+    font-weight: 500;
     color: white;
     padding: 5px 15px;
     text-decoration: none;
@@ -40,7 +43,7 @@ header{
 .Home{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 900px;
     background-image: url(../images/home_pic.png);
     background-size: cover;
     background-position: center;
@@ -49,7 +52,20 @@ header{
 
 .home-text{
     color: white;
-    padding: 5px 15px;
+    padding: 0 15px;
+}
+.home-text h1{
+    font-family: "Sansita Swashed";
+    font-size: 60px;
+    font-weight: 350;
+}
+
+.home-text h3{
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 600;
+    color: #E9BD8C;
+    font-family: "Poppins",sans-serif ;
 }
 
 input[type="submit"] {
@@ -58,26 +74,149 @@ input[type="submit"] {
     border: none;
     padding: 10px 25px;
     border-radius: 6px;
+    
 }
-
-.home-text h3{
-    color: #E9BD8C;
-    font-family: "Poppins",sans-serif ;
+input[type="submit"]:hover {
+    background-color: #c3644a;
 }
-
 
 .shop-bar{
     display: flex;
-    padding: 10px;
+    padding: 70px 0;
 }
 
 .shop-bar p{
+    font-weight: 500;
+    font-size: large;
+    color: #E9BD8C;
     display: flex;
     align-self: center;
-    margin: 5px;
+    margin: 0 15px;
 }
 
 .welcome{
     margin: 400px ;
     padding: 200px 400px ;
+}
+.hey h1{
+    padding: 40px 0 0;
+    font-family: "Sansita Swashed";
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.hey p{
+    font-family: "Sarabun";
+    font-size: x-large;
+    text-align: center;
+    padding: 40px 250px 0;
+    font-weight: 600;
+
+}
+
+
+.footer {
+    margin-top: 80px;
+    padding: 20px 90px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+    background-image: url('../images/BackG-F.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px 60px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.top>img {
+    width: 85px;
+    height: 85px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-right: 120px;
+}
+
+.follow p {
+    color: #E9BD8C;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.yellowLine {
+    border: 1px solid #E9BD8C;
+}
+
+.aboutExplore {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.AB-EX {
+    display: flex;
+}
+
+.about {
+    margin-right: 40px;
+}
+
+.about,
+.Explore {
+    color: #F5F5F5;
+}
+
+.about h3,
+.Explore h3,
+.RN h3 {
+    font-weight: 500;
+    color: #E9BD8C;
+    font-size: 30px;
+}
+
+.about ul li,
+.Explore ul li {
+    font: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-top: 12px;
+}
+
+.details .date {
+    color: #E9BD8C;
+}
+
+.details .desc {
+    color: #F5F5F5;
+}
+
+.copyright {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    color: #737373;
+    font-weight: 500;
 }
