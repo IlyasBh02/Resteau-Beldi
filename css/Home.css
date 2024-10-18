@@ -49,17 +49,17 @@ header{
     padding: 200px 100px;
 }
 
-.home-text{
+.homeText{
     color: white;
     padding: 0 15px;
 }
-.home-text h1{
+.homeText h1{
     font-family: "Sansita Swashed";
     font-size: 60px;
     font-weight: 350;
 }
 
-.home-text h3{
+.homeText h3{
     font-family: "Inter";
     font-size: 25px;
     font-weight: 600;
