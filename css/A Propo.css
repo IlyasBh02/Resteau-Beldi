@@ -16,6 +16,9 @@ header{
     column-gap: 150px;
     align-items: center;
     padding: 20px 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 

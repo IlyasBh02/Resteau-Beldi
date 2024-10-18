@@ -36,14 +36,161 @@ header{
 }
 
 
+.menu {
+    width: 72%;
+    margin: 125px auto 0 auto;
+}
+
+.Top-Products h1 {
+    text-align: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 64px;
+    font-weight: 500;
+    padding: 0 0 30px 0;
+}
+
+.produit {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.pp {
+    width: 360px;
+    height: 430px;
+    background-image: url("../images/menu/BG-menu.png");
+    background-position: center;
+    background-size: cover;
+    margin: 8px 5px;
+    border-radius: 8px;
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 0 20px;
+    color: #F5F5F5;
+    align-items: center;
+}
+
+.pp img{
+    height: 230px;
+    padding: 40px 0 0 55px;
+}
+
+.price p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.infoCard {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 15px 20px;
+    color: #F5F5F5;
+    align-items: center;
+}
+
+.detailCard p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #933C24;
+    color: #F5F5F5;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover {
+    background-color: #c3644a;
+}
+
+.firstOrder{
+    background-image: url(../images/menu/Rectangle\ 45.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.firstOrder h2{
+    font-family: "Sansita Swashed";
+    color: #933C24;
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 40px 0 0;
+}
+.firstOrder p{
+    font-family: "inter";
+    color: #5D5D5D;
+    font-weight: 400;
+    font-size: x-large;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Explore-More{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.Explore-More h2{
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 64px;
+    font-weight: 500;
+    padding: 0 0 60px 0;
+}
 
+.cake ul{
+    font-family: "Poppins", system-ui;
+    color: #5D5D5D;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+}
 
+.cake ul li{
+    margin: 0 20px;
+}
 
+.cake ul li:hover {
+    background-color: #c3644a;
+    border-radius: 10px;
+}
 
+.cake hr{
+    color: #D9D9D9;
 
+}
 
+.paceofcake{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 15px;
+    row-gap: 15px ;
+    margin-top: 70px;
+}
 
 
 
